@@ -1,4 +1,5 @@
 ##Problem definition
+
 Jack and Daniel are friends. Both of them like letters, especially uppercase ones.
 They are cutting uppercase letters from newspapers, and each one of them has his collection of letters stored in a stack.
 
@@ -20,6 +21,7 @@ F	        ABCAC
 
 ##Function Description
 
+
 Complete the morganAndString function in the editor below.
 
 morganAndString has the following parameter(s):
@@ -32,6 +34,7 @@ Returns
 
 ##Input Format
 
+
 The first line contains the an integer , the number of test cases.
 
 The next  pairs of lines are as follows:
@@ -39,6 +42,7 @@ The next  pairs of lines are as follows:
 - The second line contains string .
 
 ##Constraints
+
 
 - 1 <= T <= 5
 - 1 <= |a|, |b| <= 10^5
@@ -61,4 +65,5 @@ DAJACKNIEL
 AABABACABACABA
 ```
 ##Explanation
+
 The first letters to choose from are J and D since they are at the top of the stack. D is chosen and the options now are J and A. A is chosen. Then the two stacks have J and N, so J is chosen. The current string is DA. Continue this way to the end to get the string.
