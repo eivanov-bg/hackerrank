@@ -18,11 +18,7 @@ function morganAndString(a, b, currentResult = '', memo = {}) {
         const left = a[0] + morganAndString(a.slice(1), b, currentResult, memo);
         const right = b[0] + morganAndString(a, b.slice(1), currentResult, memo);
 
-        if (left < right) {
-            res = left;
-        } else {
-            res = right
-        }
+        res = (left < right) ? left : right;
     }
 
     memo[key] = currentResult + res;

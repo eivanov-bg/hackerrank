@@ -19,6 +19,8 @@ F	        ABCAC
 ```
 **Note** the choice when there was a tie at CA and CF.
 
+https://www.hackerrank.com/challenges/morgan-and-a-string/problem
+
 ##Function Description
 
 
