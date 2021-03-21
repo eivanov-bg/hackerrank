@@ -1,10 +1,10 @@
-#Super Reduced String
+# Super Reduced String
 
 Reduce a string of lowercase characters in range ascii[‘a’..’z’] by doing a series of operations. In each operation, select a pair of adjacent letters that match, and delete them.
 
 Delete as many characters as possible using this method and return the resulting string. If the final string is empty, return Empty String
 
-##Example.
+## Example.
 
 ```
 s = 'aab'
@@ -18,7 +18,7 @@ s = 'abba'
 
 Remove the two 'b' characters leaving 'aa'. Remove the two 'a' characters to leave ''. Return **'Empty String'**.
 
-##Function Description
+## Function Description
 
 Complete the superReducedString function in the editor below.
 
@@ -30,27 +30,27 @@ Returns
 
 - string: the reduced string or Empty String
 
-##Input Format
+## Input Format
 
 A single string, **s**.
 
-##Constraints
+## Constraints
 
 - 1 <= length of s <= 100
 
-##Sample Input 0
+## Sample Input 0
 
 ```
 aaabccddd
 ```
 
-##Sample Output 0
+## Sample Output 0
 
 ```
 abd
 ```
 
-##Explanation 0
+## Explanation 0
 
 Perform the following sequence of operations to get the final string:
 
@@ -58,36 +58,36 @@ Perform the following sequence of operations to get the final string:
 aaabccddd → abccddd → abddd → abd
 ```
 
-##Sample Input 1
+## Sample Input 1
 
 ```
 aa
 ```
 
-##Sample Output 1
+## Sample Output 1
 
 ```
 Empty String
 ```
 
-##Explanation 1
+## Explanation 1
 
 ```
 aa → Empty String
 ```
 
-##Sample Input 2
+## Sample Input 2
 
 ```
 baab
 ```
 
-##Sample Output 2
+## Sample Output 2
 
 ```
 Empty String
 ```
 
-##Explanation 2
+## Explanation 2
 
 ```baab → bb → Empty String```

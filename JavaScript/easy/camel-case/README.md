@@ -1,4 +1,4 @@
-##Problem definition
+# Camel Case
 
 There is a sequence of words in CamelCase as a string of letters **s** having the following properties:
 
@@ -10,13 +10,13 @@ Given **s**, determine the number of words in **s**.
 
 https://www.hackerrank.com/challenges/camelcase/problem
 
-##Example
+## Example
 
 s = oneTwoThree
 
 There are **3** words in the string: 'one', 'Two', 'Three'.
 
-##Function Description
+## Function Description
 
 Complete the camelcase function in the editor below.
 
@@ -28,27 +28,27 @@ Returns
 
 - int: the number of words in
 
-##Input Format
+## Input Format
 
 A single line containing string **s**.
 
-##Constraints
+## Constraints
 
 - 1 <= length of **s** <= 10^5
 
-##Sample Input
+## Sample Input
 
 ```
 saveChangesInTheEditor
 ```
 
-##Sample Output
+## Sample Output
 
 ```
 5
 ```
 
-##Explanation
+## Explanation
 
 String **s** contains five words:
 
